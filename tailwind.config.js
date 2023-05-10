@@ -6,7 +6,13 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'icons': '#5F6368',
+        'primary': '#8B49FF',
+      },
+      fontFamily: 'Montserrat'
+    },
   },
   plugins: [],
 }
