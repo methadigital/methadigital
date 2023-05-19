@@ -1,9 +1,15 @@
+import { ServicesList } from '@/components/homepage/ServicesList';
+import { ConnectContainer } from '@/components/homepage/ConnectContainer';
+import { ContactContainer } from '@/components/homepage/ContactContainer';
+import { Footer } from '@/components/Footer';
+
 export default function Home() {
   return (
-    <main>
-      <div>
-        <h1>Home</h1>
-      </div>
-    </main>
+    <>
+      <ConnectContainer />
+      <ServicesList />
+      <ContactContainer />
+      <Footer />
+    </>
   );
 }
