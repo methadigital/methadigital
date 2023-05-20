@@ -27,18 +27,18 @@ export function Footer() {
             © 2023. Todos os direitos reservados.
           </span>
         </div>
-      </div>
-      <div className="w-full mt-16 flex justify-end">
-        <div
-          className="p-2 bg-primary cursor-pointer rounded-sm hover:bg-opacity-90"
-          onClick={() =>
-            window.scrollTo({
-              top: 0,
-              behavior: 'smooth',
-            })
-          }
-        >
-          <BsArrowUp size={24} className="text-[#DCC8FF]" />
+        <div className="w-full flex justify-end">
+          <div
+            className="p-2 bg-primary cursor-pointer rounded-sm hover:bg-opacity-90"
+            onClick={() =>
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+              })
+            }
+          >
+            <BsArrowUp size={24} className="text-[#DCC8FF]" />
+          </div>
         </div>
       </div>
     </>

@@ -6,8 +6,8 @@ import { TitleWithSpan } from '../TitleWithSpan';
 export function DescriptionContainer() {
   return (
     <FlexRowColStack>
-      <div className="flex flex-col md:flex-row">
-        <div className="w-4/4 md:w-2/4 py-12">
+      <div className="flex flex-col lg:flex-row">
+        <div className="w-4/4 lg:w-2/4 py-12">
           <div className="w-80">
             <TitleWithSpan spanText="Sobre" text="nossa empresa" />
           </div>
@@ -38,7 +38,7 @@ export function DescriptionContainer() {
             <span className="text-sm">Entre em contato</span>
           </div>
         </div>
-        <div className="w-4/4 md:w-2/4 flex justify-center">
+        <div className="w-4/4 lg:w-2/4 flex justify-center">
           <img
             src="/images/ilstr-about.svg"
             className="w-3/4"
