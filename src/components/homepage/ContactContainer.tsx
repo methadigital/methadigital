@@ -2,7 +2,7 @@ import { RedirectButton } from '../RedirectButton';
 
 export function ContactContainer() {
   return (
-    <div className="mt-16 mb-32 md:my-32 flex flex-col items-center justify-center">
+    <div className="mt-16 md:mt-32 flex flex-col items-center justify-center">
       <img
         src="/images/logotipo.svg"
         className="md:cursor-pointer h-9 mb-16"

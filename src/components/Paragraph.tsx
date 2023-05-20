@@ -3,5 +3,5 @@ interface ParagraphProps {
 }
 
 export function Paragraph({ children }: ParagraphProps) {
-  return <p className="text-sm md:text-lg">{children}</p>;
+  return <p className="text-sm md:text-lg text-icons">{children}</p>;
 }

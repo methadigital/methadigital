@@ -12,7 +12,7 @@ export function TeamContainer() {
             text="criativa e de desenvolvimento"
           />
         </div>
-        <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-16">
+        <div className="flex flex-col lg:flex-row justify-center gap-8 lg:gap-16">
           <CardTeamColab name="Michael André" office="Designer Gráfico" />
           <CardTeamColab name="Natã Hermes" office="Desenvolvedor" />
           <CardTeamColab name="Lucas Fabiano" office="Marketing Digital" />
