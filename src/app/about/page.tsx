@@ -1,7 +1,13 @@
+import { DescriptionContainer } from '@/components/aboutpage/DescriptionContainer';
+import { SocialMediaContainer } from '@/components/aboutpage/SocialMediaContainer';
+import { TeamContainer } from '@/components/aboutpage/TeamContainer';
+
 export default function About() {
   return (
-    <div>
-      <h1>about</h1>
-    </div>
+    <>
+      <DescriptionContainer />
+      <SocialMediaContainer />
+      <TeamContainer />
+    </>
   );
 }
