@@ -1,7 +1,9 @@
+import { ServicesContainer } from '@/components/servicespage/ServicesContainer';
+
 export default function Services() {
   return (
-    <div>
-      <h1>Services</h1>
-    </div>
+    <>
+      <ServicesContainer />
+    </>
   );
 }

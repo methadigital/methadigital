@@ -1,15 +1,16 @@
 import { ArrowRightCircleIcon } from '@heroicons/react/24/outline';
 import { FlexRowColStack } from '../FlexRowColStack';
 import { Paragraph } from '../Paragraph';
+import { TitleWithSpan } from '../TitleWithSpan';
 
 export function DescriptionContainer() {
   return (
     <FlexRowColStack>
       <div className="flex flex-col md:flex-row">
         <div className="w-4/4 md:w-2/4 py-12">
-          <p className="text-xl md:text-2xl w-80 text-icons">
-            <span className="text-primary">Sobre</span> nossa empresa
-          </p>
+          <div className="w-80">
+            <TitleWithSpan spanText="Sobre" text="nossa empresa" />
+          </div>
 
           <div className="w-full flex flex-col gap-4 mt-8">
             <Paragraph>

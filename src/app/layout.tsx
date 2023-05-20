@@ -2,6 +2,7 @@ import './globals.css';
 import { Montserrat } from 'next/font/google';
 
 import Navbar from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 
 const montserrat = Montserrat({
   weight: ['400', '500', '900'],
@@ -26,6 +27,9 @@ export default function RootLayout({
           <Navbar />
           <div className="w-full">{children}</div>
         </main>
+        <footer className="mt-32 p-4 lg:px-16 2xl:px-32">
+          <Footer />
+        </footer>
       </body>
     </html>
   );
