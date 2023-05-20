@@ -4,11 +4,9 @@ import { TitleWithSpan } from '../TitleWithSpan';
 export function SocialMediaContainer() {
   return (
     <FlexRowColStack>
-      <div className="mt-12 w-full">
-        <div className="w-44">
-          <p className="text-base md:text2xl text-icons">
-            <span className="text-primary">Acompanhe</span> nosso progresso
-          </p>
+      <div className="mt-24 w-full">
+        <div className="w-80">
+          <TitleWithSpan spanText="Acompanhe" text="nosso progresso" />
         </div>
         <div className="mt-8 flex flex-col items-center justify-center">
           <div className="flex flex-col gap-4">

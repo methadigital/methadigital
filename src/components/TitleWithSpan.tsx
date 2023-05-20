@@ -5,7 +5,7 @@ interface TitleWithSpanProps {
 
 export function TitleWithSpan({ spanText, text }: TitleWithSpanProps) {
   return (
-    <p className="text-xl md:text2xl text-icons">
+    <p className="text-base md:text-2xl text-icons flex flex-col">
       <span className="text-primary">{spanText}</span> {text}
     </p>
   );
