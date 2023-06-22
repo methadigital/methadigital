@@ -3,12 +3,15 @@ import { FlexRowColStack } from '../FlexRowColStack';
 import { Paragraph } from '../Paragraph';
 import { TitleWithSpan } from '../TitleWithSpan';
 
+import iltrAbout from '@images/ilstr-about.svg';
+import Image from 'next/image';
+
 export function DescriptionContainer() {
   return (
     <FlexRowColStack>
       <div className="flex flex-col lg:flex-row">
         <div className="w-4/4 lg:w-2/4 py-12">
-          <div className="w-80">
+          <div className="md:w-80">
             <TitleWithSpan spanText="Sobre" text="nossa empresa" />
           </div>
 
@@ -39,9 +42,8 @@ export function DescriptionContainer() {
           </div>
         </div>
         <div className="w-4/4 lg:w-2/4 flex justify-center">
-          <img
-            src="/images/ilstr-about.svg"
-            className="w-3/4"
+          <Image
+            src={iltrAbout}
             alt="Imagem contendo 4 pessoas e seus notebooks, reunidas numa mesa redonda com um quadro atrás contendo informações."
           />
         </div>

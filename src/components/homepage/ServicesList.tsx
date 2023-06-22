@@ -1,4 +1,6 @@
+import { ReactNode } from 'react';
 import { ServicesItem } from './ServicesItem';
+import { FrameMembers } from '@/components/frames/members';
 
 export function ServicesList() {
   return (

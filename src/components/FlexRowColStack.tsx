@@ -3,5 +3,5 @@ interface FlexRowColStackProps {
 }
 
 export function FlexRowColStack({ children }: FlexRowColStackProps) {
-  return <div className="flex flex-col md:flex-row w-full">{children}</div>;
+  return <div className="flex flex-col sm:flex-row w-full">{children}</div>;
 }
