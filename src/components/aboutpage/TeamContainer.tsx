@@ -1,6 +1,6 @@
 import { FlexRowColStack } from '../FlexRowColStack';
 import { TitleWithSpan } from '../TitleWithSpan';
-import { CardTeamColab } from './CardTeamColab';
+import { FrameMembers } from '../frames/members';
 
 export function TeamContainer() {
   return (
@@ -12,11 +12,7 @@ export function TeamContainer() {
             text="criativa e de desenvolvimento"
           />
         </div>
-        <div className="flex flex-col lg:flex-row justify-center gap-8 lg:gap-16">
-          <CardTeamColab name="Michael André" office="Designer Gráfico" />
-          <CardTeamColab name="Natã Hermes" office="Desenvolvedor" />
-          <CardTeamColab name="Lucas Fabiano" office="Marketing Digital" />
-        </div>
+        <FrameMembers />
       </div>
     </FlexRowColStack>
   );

@@ -6,7 +6,7 @@ export function SocialMediaContainer() {
   return (
     <FlexRowColStack>
       <div className="mt-24 w-full">
-        <div className="w-80">
+        <div className="md:w-80">
           <TitleWithSpan spanText="Acompanhe" text="nosso progresso" />
         </div>
         <div className="mt-8 flex flex-col items-center justify-center">
